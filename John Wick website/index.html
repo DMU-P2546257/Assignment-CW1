@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- Html is set to English language. -->
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewpoint" content="width=device-width" /> <!-- meta viwpoint and content is put in so that film website can be view on smartphones and desktop. -->
+	<title>Home</title>
+</head>
+
+<body> 	<!-- The body is what would be in the website. -->
+<style>
+	p{
+		font-size: 1.4em; /* The text is set the font size 1.4em so the text isn't too small or too big but easy to read */
+	}
+	h1{
+		color: white; /* heading is set to white becuase I keeping to the colour scheme of heading, subheadings and navigation to the colour white. */
+		font-size: 5em; /* The heading is set to font 5em to stand out from text */
+	}
+	body{
+		background-color: black; /* This changes the whole background of website black. Black to fit the colour schmeme with purple and white because in John Wick
+		movies they use these colours in the movie and advertising. */
+		color: #774083;
+	}
+	.center{ /* This puts the main heading, subheadings and footer at the centre of the website. */
+		text-align: center;
+	}
+	.footer{
+		font-size: 1em; /* Chosen this size because footer in other websites are small text at the bottom */
+		background-color: gray; /* The grey colour for background of footer to make the text stand out and to show it is sepurate to the main page.*/
+		color: black; /* The black stands out from the grey background footer */
+		padding: 10px; /* The padding creats space betwwen text. There is 10px between text so it is easier to read. */
+	}
+	.header-colour{
+		color: white;
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0; /* No need for spacing */
+		overflow: hidden;	/* "ul" tag is for the nagvation bar so that the viewers can nagvatage to Home and Cast pages. The overflow is hidden so
+			that the navigtion bar stays in one place if the website is view at different viewpoints. The colours are consistant
+			with the colour schmeme of the website */
+		background-color: #774083;
+	}
+	li{
+		float: left; /* This puts the navigtion tabs to the left side of page */
+	}
+	li a{
+		display: block;
+		color: white; /* chosen colour white becuase I am using three colours for the website white, purple and black. */
+		text-align: center; /*aligns the text to centre of website. */
+		padding: 14px 16px; /* Padding is how much space between the text to stop from overlap and clump together. */
+		text-decoration: none; /* This is a link but don't want select navigation bar so change the name to "none" */
+		font-weight: bold; /* This makes the text bolder so can be easier to see. */
+		font-size: 1.5em; /* This size is clear for viewers to see text. */
+	}
+	li a:hover{ /* Hover is to highlight the navigation buttons. The viewers can see what tabs they want to select by hovering with
+	the computer mouse over the tabs .*/
+		background-color: #111;
+	}
+	.selected-tab { /* selected tab is to show what page the viewer is looking at. The darker purple tells what page has been selected */
+		background-color: #4e2a56;
+	}
+</style>
+
+<h1 class="center header-colour">John Wick</h1>
+
+<ul>
+  <li><a class="selected-tab" href="index.html">Home</a></li>
+	<li><a href="cast.html">Cast</a></li>
+	</ul>
+<!-- "ul" tag is to tell the website to start at home page first and link to cast page. -->
+
+<p> John Wick former assassin retires to take care of his terminal ill wife. He receives one final gift from his wife to find meaning in his life and pace after his beloved wife is gone, the gift is a dog who his wife named Daisy. Russian mob prince Losef Tarasov wanted to buy John Wick 1969 Mustang and Wick refused the offer. Losef is used to getting what he wants so him and his men broke into Wick’s house to steal 1969 Mustang and his wife’s present. Blind with revenge of destruction against the sophisticated kingpin, Viggo Tarasov and his family who are fully aware of Wick lethal capacity. Viggo Tarasov refers Wick as the “bogeyman”.
+</p>
+
+<div class="center">
+	<video width="720" height="420" controls>
+		<source src="video/john-wick-trailer.mp4" type="video/mp4">
+		Your browser does not support the video tag.<!-- The width and height controls how big the video trailer will show on the website. Video trailer is from youtube
+		and format is mp4. "Your brower does not support the video tag" This is put in becuase if the viewer is unable
+		to load video they can see what the video is surpose to be on the page. -->
+	</video>
+</div>
+
+<footer>
+<p class="center footer">Author: Francesca Walters (P2546257)<!-- Footer is to show the viewer who is the Author of website and if need to contact the author. -->
+</p>
+
+</footer>
+
+</body>
+</html>
